@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/lincoln" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="@drawable/title_bg"
+            android:text="Abaraham Lincoln Quotes"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="26dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="370dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btntext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+
+                android:text="“My concern is not whether God is on our side; my greatest concern is to be on God's side, for God is always right.”
+― Abraham Lincoln"
+
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#E4B62B"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="380dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btntext1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+
+                android:text="“I'm a success today because I had a friend who believed in me and I didn't have the heart to let him down.”
+― Abraham Lincoln"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#E4B62B"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btntext2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:padding="20dp"
+                android:text="“America will never be destroyed from the outside. If we falter and lose our freedoms, it will be because we destroyed ourselves.”
+― Abraham Lincoln"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#E4B62B"
+            android:drawableRight="@drawable/shareicon1"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
